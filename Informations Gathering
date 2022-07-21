@@ -1,0 +1,94 @@
+To accomplish this computational task, facial recognition systems perform four steps. 
+First face detection is used to segment the face from the image background. 
+In the second step the segmented face image is aligned to account for face pose, image size and photographic properties, such as illumination and grayscale. 
+The purpose of the alignment process is to enable the accurate localization of facial features in the third step, the facial feature extraction. 
+Features such as eyes, nose and mouth are pinpointed and measured in the image to represent the face. 
+The so established feature vector of the face is then, in the fourth step, matched against a database of faces.[30]
+-------------------
+Use the following tips to make sure that your input images give the most accurate detection results:
+•	The supported input image formats are JPEG, PNG, GIF (the first frame), BMP.
+•	The image file size should be no larger than 6 MB.
+•	The minimum detectable face size is 36 x 36 pixels in an image that is no larger than 1920 x 1080 pixels. Images with larger than 1920 x 1080 pixels have a proportionally larger minimum face size. Reducing the face size might cause some faces not to be detected, even if they are larger than the minimum detectable face size.
+•	The maximum detectable face size is 4096 x 4096 pixels.
+•	Faces outside the size range of 36 x 36 to 4096 x 4096 pixels will not be detected.
+•	Some faces might not be recognized because of technical challenges, such as:
+o	Images with extreme lighting, for example, severe backlighting.
+o	Obstructions that block one or both eyes.
+o	Differences in hair type or facial hair.
+o	Changes in facial appearance because of age.
+o	Extreme facial expressions.
+--------------------------------------------------
+There are 2 kinds of models in the context of Supervised Learning, Generative and Discriminative Models. 
+Discriminative Models are primarily used to solve the Classification task where the model usually learns a decision boundary to predict which class a data point 
+belongs to. On the other side, Generative Models are primarily used to generate synthetic data points that follow the same probability distribution as training data 
+distribution. 
+Our topic of discussion, Generative Adversarial Networks(GANs) is an example of the Generative Model
+--------------------------------------------------
+For example:
+•	We may want to restrict access to a resource to one person, called face authentication.
+•	We may want to confirm that the person matches their ID, called face verification.
+•	We may want to assign a name to a face, called face identification.
+Generally, we refer to this as the problem of automatic “face recognition” and it may apply to both still photographs or faces in streams of video.
+Face recognition is often described as a process that first involves four steps; they are: face detection, face alignment, feature extraction, and finally face recognition.
+1.	Face Detection. Locate one or more faces in the image and mark with a bounding box.
+2.	Face Alignment. Normalize the face to be consistent with the database, such as geometry and photometrics.
+3.	Feature Extraction. Extract features from the face that can be used for the recognition task.
+4.	Face Recognition. Perform matching of the face against one or more known faces in a prepared databas
+-------------------------------------------------
+For example, in the 1995 paper titled “Human and machine recognition of faces: A survey,” the authors describe three face recognition tasks:
+•	Face Matching: Find the best match for a given face.
+•	Face Similarity: Find faces that are most similar to a given face.
+•	Face Transformation: Generate new faces that are similar to a given face.
+The 2011 book on face recognition titled “Handbook of Face Recognition” describes two main modes for face recognition, as:
+•	Face Verification. A one-to-one mapping of a given face against a known identity (e.g. is this the person?).
+•	Face Identification. A one-to-many mapping for a given face against a database of known faces (e.g. who is this person?)
+The output varies based on the type of prediction required for the task; for example:
+•	It may then be a binary class label or binary class probability in the case of a face verification task.
+•	It may be a categorical class label or set of probabilities for a face identification task.
+•	It may be a similarity metric in the case of a similarity type task.
+-----------------------------------------------------------------------
+Labeled Faces in the Wild (LFW) is a database of face photographs designed for studying the problem of unconstrained face recognition. 
+This database was created and maintained by researchers at the University of Massachusetts, Amherst (specific references are in Acknowledgments section). 
+13,233 images of 5,749 people were detected and centered by the Viola Jones face detector and collected from the web. 1,680 of the people pictured have two or more 
+distinct photos in the dataset. The original database contains four different sets of LFW images and also three different types of "aligned" images. 
+According to the researchers, deep-funneled images produced superior results for most face verification algorithms compared to the other image types. 
+Hence, the dataset uploaded here is the deep-funneled version.
+
+--------------------------------
+Abstract. With the development of deep learning, face recognition technology based on CNN (Convolutional Neural Network) has become the main
+method adopted in the field of face recognition
+-------------
+To rely the webcame to with google collab to detect real time images or frames from videos it’s to do some javascript code
+---------------
+Multi-Class Classification Loss Functions
+1.	Multi-Class Cross-Entropy Loss
+2.	Sparse Multiclass Cross-Entropy Loss
+3.	Kullback Leibler Divergence Loss
+
+Three popular ML algorithms, SVM, RF, and kNN were used for emotion intensity recognition. A comparative study and implementation of algorithms for measuring facial emotions and their intensities based on the different AUs (Action Units) are presented.
+Is emotion recognition accurate?
+A 2019 systematic review of the scientific literature on inferring emotions from facial movements, led by the psychologist and neuroscientist Lisa Feldman Barrett, found there is no reliable evidence that you can accurately predict someone's emotional state in this manner
+---------------------------------
+
+k-Means Clustering is an unsupervised learning algorithm that is used for clustering whereas KNN is a supervised learning algorithm used for classification.
+HIDDEN MARKOV MODEL HMM, as a dynamic time series statistical model of signals, has precise data structure and reliable capability of calculating. 
+As well as, it can extract reliable models through less samples, find out the model which is the most similar with test samples according to the theory 
+of model matching.
+Therefore, HMM has become the main technology in speech recognition, expression recognition and biologic series contrast, it is because real condition is much more 
+complex than what Markov can describe.
+The block diagram of the automatic facial expression recognition system is shown in Figure 1. HMMs, commonly used tool for automatic speech recognition, are utilized 
+in this work as a classification approach
+---Facial Feature Extraction (FFE)----
+
+
+
+
+
+
+
+
+
+
+
+
+
